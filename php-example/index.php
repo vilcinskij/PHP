@@ -10,7 +10,28 @@
 
 <body>
     <?php
-    if(5 == 5)
+
+    $x = "0";
+    $y = "5";
+    $z = "6";
+
+    if ($z >= 0 && $x == 0) {
+
+
+        switch ($z) {
+            case 4;
+                echo "LABAS";
+                break;
+            case 5;
+                echo "LABAS_2";
+                break;
+            case 6;
+                echo "LABAS_3";
+                break;
+        }
+    } else
+        echo "arba $z mažiaus už 0 arba $x nelygu 0"
+
     ?>
 </body>
 

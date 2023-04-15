@@ -13,10 +13,21 @@
     <?php
     $arr = [0, 1, 5, 0, 9];
     echo $arr[3];
-    
+
     $arr2 = ["age" => 0, "key" => 10, "name" => "Oleg"];
-    echo $arr2["name"]
+    $arr2["name"] = "Petras";
+    echo $arr2["name"];
+
+    $arr3 = [
+        ["name" => "Student1", "age" => 10, "validation" => true],
+        ["name" => "Student2", "age" => 22, "validation" => false],
+        ["name" => "Student3", "age" => 35, "validation" => true],
+        [4, 5, 6]
+    ];
+    echo $arr3[2]["name"]
     ?>
+
+
 
 </body>
 

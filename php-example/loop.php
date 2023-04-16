@@ -12,9 +12,15 @@
     <?php
     $arr = [4, 5, 9, "i", "labas", 5, 8];
     for ($i = 0; $i < count($arr); $i++) {
-        echo $arr[$i] . "<br>";
+        // echo $arr[$i] . "<br>";
     };
-
+    $i = 0;
+    while ($i < count($arr)) {
+        // echo $arr[$i] . "<br>";
+        $i++;
+    }
+    $arrObj = ["name" => "John", "surname" => "Doe", "age" => 55, "price" => 4900, "validation" => true];
+    echo count($arrObj);
     ?>
 </body>
 

@@ -9,7 +9,13 @@
 </head>
 
 <body>
+    <?php
+    $arr = [4, 5, 9, "i", "labas", 5, 8];
+    for ($i = 0; $i < count($arr); $i++) {
+        echo $arr[$i] . "<br>";
+    };
 
+    ?>
 </body>
 
 </html>

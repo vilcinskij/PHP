@@ -19,8 +19,11 @@
         // echo $arr[$i] . "<br>";
         $i++;
     }
-    $arrObj = ["name" => "John", "surname" => "Doe", "age" => 55, "price" => 4900, "validation" => true];
-    echo count($arrObj);
+    $arrObj = ["name" => "John", "surname" => "Doe", "age" => 55, "price" => 4900, "validation" => false];
+    foreach($arrObj as $key => $value) {
+        echo "$key: $value<br>";
+    }
+
     ?>
 </body>
 

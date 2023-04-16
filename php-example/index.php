@@ -9,7 +9,7 @@
 </head>
 <header>
     <a href="/">Main</a>
-    <a href="/arrays.php">Arrays</a>
+    <a href="/arrays.php">Arraysas</a>
 </header>
 
 <body>

@@ -19,10 +19,12 @@
         // echo $arr[$i] . "<br>";
         $i++;
     }
-    $arrObj = ["name" => "John", "surname" => "Doe", "age" => 55, "price" => 4900, "validation" => false];
-    foreach($arrObj as $key => $value) {
+    $arrObj = ["name" => "John", "surname" => "Doe", "age" => 55, "price" => 4900, "validation" => true];
+    foreach ($arrObj as $key => $value) {
         echo "$key: $value<br>";
     }
+    foreach ($arr as $element) echo "$element<br>";
+
 
     ?>
 </body>

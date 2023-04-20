@@ -9,9 +9,10 @@
 
     <title>switch</title>
 </head>
-<?php 
+<?php
 include_once "./blocks/header.php"
 ?>
+
 <body>
     <?php
 

@@ -9,7 +9,7 @@
     <title>INDEX</title>
 </head>
 
-<?php 
+<?php
 include_once "./blocks/header.php"
 ?>
 

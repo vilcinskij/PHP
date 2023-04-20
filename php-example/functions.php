@@ -10,9 +10,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<?php 
+<?php
 include_once "./blocks/header.php"
 ?>
+
 <body>
     <?php
 

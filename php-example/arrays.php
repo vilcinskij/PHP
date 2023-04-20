@@ -16,7 +16,7 @@ include_once "./blocks/header.php"
 <body>
 
     <?php
-    $arr = [0, 1, 5, 0, , 55, 9];
+    $arr = [0, 1, 5, 0,, 55, 9];
     echo $arr[3];
 
     $arr2 = ["age" => 0, "key" => 10, "name" => "Oleg"];
